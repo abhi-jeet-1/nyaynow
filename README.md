@@ -1,96 +1,72 @@
-# NyayNow — Legal Help On-Demand 🏛️
+# ⚖️ NyayNow — Legal Help, On Demand
 
-An Uber-like app for on-demand legal services. Built with React + Vite.
+**Got a traffic challan? Stuck at a police station? Need legal advice RIGHT NOW?**
 
----
-
-## 🚀 Deploy FREE in under 2 minutes
-
-### Option 1: Vercel (Recommended — Fastest)
-
-1. **Push to GitHub:**
-   ```bash
-   cd nyaynow
-   git init
-   git add .
-   git commit -m "Initial commit"
-   gh repo create nyaynow --public --push --source=.
-   ```
-   *(Or create a repo on github.com and push manually)*
-
-2. **Deploy on Vercel:**
-   - Go to [vercel.com](https://vercel.com) → Sign in with GitHub
-   - Click **"Add New Project"**
-   - Import your `nyaynow` repo
-   - Framework preset will auto-detect **Vite** — just click **Deploy**
-   - ✅ Live in ~30 seconds at `nyaynow.vercel.app`
+NyayNow connects you with verified, nearby lawyers in minutes — like calling a cab, but for legal emergencies.
 
 ---
 
-### Option 2: Netlify
+## The Problem
 
-1. Push to GitHub (same as above)
-2. Go to [netlify.com](https://netlify.com) → Sign in with GitHub
-3. Click **"Add new site" → "Import an existing project"**
-4. Select your repo
-5. Build settings (auto-detected):
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-6. Click **Deploy** → Live in ~1 minute
+Every day, millions of Indians face legal situations they're not prepared for — a traffic challan they don't deserve, a road accident with no idea what to do, a police encounter that feels wrong, or an online scam they just fell for. Most people don't have a lawyer's number saved. And even if they do, getting timely help is nearly impossible.
 
----
+## The Solution
 
-### Option 3: Cloudflare Pages
+NyayNow is an on-demand legal services platform. Open the app, pick your issue, and get connected to a qualified lawyer near you within minutes — via voice or video call.
 
-1. Push to GitHub
-2. Go to [pages.cloudflare.com](https://pages.cloudflare.com)
-3. Create project → Connect GitHub repo
-4. Build settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-5. Deploy → Live with global CDN
+No appointments. No retainers. No waiting.
 
 ---
 
-### Option 4: GitHub Pages (No account needed beyond GitHub)
+## How It Works
 
-1. Install `gh-pages`:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
+1. **Select your issue** — Traffic challan, road accident, police matter, consumer dispute, property issue, or cyber crime
+2. **Browse nearby lawyers** — See ratings, case history, languages spoken, distance, ETA, and consultation fees upfront
+3. **Connect instantly** — Secure video/voice consultation starts in under 5 minutes
 
-2. Add to `vite.config.js`:
-   ```js
-   export default defineConfig({
-     base: '/nyaynow/',
-     plugins: [react()],
-   })
-   ```
+## What You Get
 
-3. Add to `package.json` scripts:
-   ```json
-   "deploy": "npm run build && npx gh-pages -d dist"
-   ```
+- **15-minute consultation** with a verified, practicing advocate
+- **Document review** and on-the-spot legal opinion
+- **Follow-up summary** delivered to your email
+- **Option to extend** the session if needed
+- **SOS mode** for emergencies — one tap to connect with the nearest available lawyer
 
-4. Run:
-   ```bash
-   npm run deploy
-   ```
+## Who It's For
+
+- 🚗 **Drivers** dealing with unfair challans or towing
+- 🚑 **Accident victims** who need immediate legal guidance and FIR help
+- 🛡️ **Citizens** facing wrongful detention or police harassment
+- 🛒 **Consumers** scammed by sellers, apps, or service providers
+- 🏠 **Tenants & landlords** in urgent property disputes
+- 💻 **Anyone** hit by online fraud, identity theft, or cyber harassment
+
+## Why NyayNow?
+
+- **Fast** — Average lawyer response time is 3 minutes
+- **Transparent** — All fees shown upfront, no hidden costs
+- **Verified** — Every lawyer is bar-council verified with a public track record
+- **Multilingual** — Consultations available in Hindi, English, and regional languages
+- **Secure** — All calls are end-to-end encrypted
+- **Affordable** — Consultations start at just ₹399
+
+## Pricing
+
+| Plan | What's Included | Price |
+|------|----------------|-------|
+| Single Consultation | 15-min call + email summary | From ₹399 |
+| Extension | Additional 10 minutes | ₹200 |
+| SOS Emergency | Instant connect, first 2 min free | Free + standard rate |
 
 ---
 
-## 🛠 Local Development
+## Contact
 
-```bash
-npm install
-npm run dev
-```
+Have questions or want to partner with us?
 
-Opens at `http://localhost:5173`
+📧 hello@nyaynow.in
+🌐 [nyaynow.in](https://nyaynow.in)
 
-## Tech Stack
+---
 
-- **React 18** + **Vite 5**
-- Zero external UI dependencies
-- Pure CSS animations
-- Mobile-first responsive design
+*NyayNow — Because legal help shouldn't be a privilege.*
